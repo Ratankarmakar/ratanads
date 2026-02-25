@@ -98,6 +98,63 @@ document.addEventListener('DOMContentLoaded', () => {
   }, { rootMargin: '-50% 0px -50% 0px' });
 
   sections.forEach(sec => activeObs.observe(sec));
+  
+  /* ── BEFORE & AFTER SLIDER ──────────────────────────────── */
+document.querySelectorAll('[data-slider]').forEach(slider => {
+  const after  = slider.querySelector('.ba-after');
+  const handle = slider.querySelector('.ba-handle');
+  let isDragging = false;
+
+  function setPosition(pct) {
+    pct = Math.min(Math.max(pct, 2), 98); // clamp 2–98%
+    after.style.clipPath  = `inset(0 0 0 ${pct}%)`;
+    handle.style.left     = `${pct}%`;
+    slider.classList.add('interacted');
+  }
+
+  function getPercent(clientX) {
+    const rect = slider.getBoundingClientRect();
+    return ((clientX - rect.left) / rect.width) * 100;
+  }
+
+  // Mouse
+  slider.addEventListener('mousedown', e => {
+    isDragging = true;
+    slider.classList.add('dragging');
+    setPosition(getPercent(e.clientX));
+  });
+  window.addEventListener('mousemove', e => {
+    if (!isDragging) return;
+    setPosition(getPercent(e.clientX));
+  });
+  window.addEventListener('mouseup', () => {
+    isDragging = false;
+    slider.classList.remove('dragging');
+  });
+
+  // Touch
+  slider.addEventListener('touchstart', e => {
+    isDragging = true;
+    slider.classList.add('dragging');
+    setPosition(getPercent(e.touches[0].clientX));
+  }, { passive: true });
+  window.addEventListener('touchmove', e => {
+    if (!isDragging) return;
+    setPosition(getPercent(e.touches[0].clientX));
+  }, { passive: true });
+  window.addEventListener('touchend', () => {
+    isDragging = false;
+    slider.classList.remove('dragging');
+  });
+
+  // Keyboard accessibility
+  slider.setAttribute('tabindex', '0');
+  slider.addEventListener('keydown', e => {
+    const current = parseFloat(handle.style.left) || 50;
+    if (e.key === 'ArrowLeft')  setPosition(current - 2);
+    if (e.key === 'ArrowRight') setPosition(current + 2);
+  });
+});
 
   /* ── 5. SCROLL REVEAL ────────────────────────────────── */
   const revealEls = document.querySelectorAll('.fade-up');
