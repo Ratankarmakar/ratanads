@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <defs><linearGradient id="gr" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#1a1220"/><stop offset="100%" style="stop-color:#12100a"/></linearGradient></defs>
+  <rect width="800" height="450" fill="url(#gr)"/>
+  <rect x="40" y="40" width="720" height="370" rx="10" fill="#111" stroke="#2a2a2a" stroke-width="1"/>
+  <rect x="40" y="40" width="720" height="48" rx="10" fill="#1a1a1a"/>
+  <rect x="56" y="56" width="150" height="16" rx="4" fill="#2a2a2a"/>
+  <rect x="590" y="53" width="120" height="22" rx="5" fill="#EF4444" fill-opacity=".8"/>
+  <text x="650" y="68" font-family="Arial" font-size="10" fill="#fff" text-anchor="middle" font-weight="700">HIGH COST</text>
+  <rect x="60" y="108" width="155" height="80" rx="8" fill="#1e1e1e" stroke="#2a2a2a" stroke-width="1"/>
+  <text x="78" y="132" font-family="Arial" font-size="9" fill="#888">COST PER LEAD</text>
+  <text x="78" y="158" font-family="Arial" font-size="24" fill="#EF4444" font-weight="700">$142</text>
+  <text x="78" y="178" font-family="Arial" font-size="9" fill="#EF4444">▲ Too high</text>
+  <rect x="235" y="108" width="155" height="80" rx="8" fill="#1e1e1e" stroke="#2a2a2a" stroke-width="1"/>
+  <text x="253" y="132" font-family="Arial" font-size="9" fill="#888">LEADS / MONTH</text>
+  <text x="253" y="158" font-family="Arial" font-size="24" fill="#EF4444" font-weight="700">48</text>
+  <text x="253" y="178" font-family="Arial" font-size="9" fill="#EF4444">▼ Very low</text>
+  <rect x="410" y="108" width="155" height="80" rx="8" fill="#1e1e1e" stroke="#2a2a2a" stroke-width="1"/>
+  <text x="428" y="132" font-family="Arial" font-size="9" fill="#888">QUALITY SCORE</text>
+  <text x="428" y="158" font-family="Arial" font-size="24" fill="#EF4444" font-weight="700">3/10</text>
+  <text x="428" y="178" font-family="Arial" font-size="9" fill="#EF4444">▼ Poor</text>
+  <rect x="585" y="108" width="155" height="80" rx="8" fill="#1e1e1e" stroke="#2a2a2a" stroke-width="1"/>
+  <text x="603" y="132" font-family="Arial" font-size="9" fill="#888">CLICK-THRU RATE</text>
+  <text x="603" y="158" font-family="Arial" font-size="24" fill="#EF4444" font-weight="700">0.8%</text>
+  <text x="603" y="178" font-family="Arial" font-size="9" fill="#EF4444">▼ Below avg</text>
+  <text x="400" y="420" font-family="Arial" font-size="11" fill="#555" text-anchor="middle" font-weight="600">⚠ Before — High CPL, low lead volume, poor quality score</text>
+</svg>
