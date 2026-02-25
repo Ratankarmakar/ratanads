@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="280" viewBox="0 0 400 280">
+  <defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#2a1a10"/><stop offset="100%" style="stop-color:#1a0d08"/></linearGradient></defs>
+  <rect width="400" height="280" fill="url(#bg)"/>
+  <rect x="1" y="1" width="398" height="278" fill="none" stroke="#f97316" stroke-width="1" stroke-opacity="0.3"/>
+  <circle cx="200" cy="110" r="45" fill="#f97316" fill-opacity="0.12" stroke="#f97316" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="200" y="118" font-family="Georgia,serif" font-size="32" fill="#f97316" text-anchor="middle" opacity="0.9">🎓</text>
+  <text x="200" y="175" font-family="Georgia,serif" font-size="15" font-weight="700" fill="#ffe8d0" text-anchor="middle">HubSpot Inbound Marketing</text>
+  <text x="200" y="196" font-family="Arial,sans-serif" font-size="11" fill="#cc9a7a" text-anchor="middle">Certification</text>
+  <rect x="120" y="218" width="160" height="22" rx="11" fill="#f97316" fill-opacity="0.2"/>
+  <text x="200" y="233" font-family="Arial,sans-serif" font-size="9" fill="#f97316" text-anchor="middle" font-weight="700" letter-spacing="1">HUBSPOT ACADEMY · 2024</text>
+</svg>

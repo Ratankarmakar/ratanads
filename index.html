@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nil Ratan Karmakar — Digital Marketer, SEO Specialist, Google Ads Expert & Founder. Results-driven growth strategist available worldwide.">
+  <meta name="author" content="Nil Ratan Karmakar">
+  <meta property="og:title" content="Nil Ratan Karmakar — Digital Marketer & Founder">
+  <meta property="og:description" content="Google Ads Expert, SEO Specialist, Founder & Investor. Turning data into sustainable business growth.">
+  <title>Nil Ratan Karmakar — Digital Marketer & Founder</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,700;1,9..144,400&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS (Library) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/base.min.css">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════════════════════
+     NAVBAR
+══════════════════════════════════════════════════════════ -->
+<nav class="navbar" id="main-nav" role="navigation" aria-label="Main navigation">
+  <div class="container nav-inner">
+
+    <!-- Brand -->
+    <a href="#home" class="nav-brand" aria-label="Nil Ratan Karmakar - Home">
+      <div class="nav-brand-avatar" aria-hidden="true"><img src="assets/images/nilpot.png" alt="Nil Ratan Karmakar - Digital Marketer"></div>
+      <div class="nav-brand-text">
+        <div class="name">Nil Ratan Karmakar</div>
+        <div class="role">Digital Marketer & Founder</div>
+      </div>
+    </a>
+
+    <!-- Desktop Menu -->
+    <div class="nav-menu" role="menubar">
+
+      <a href="#about" class="nav-link" role="menuitem">About</a>
+
+      <!-- Services Dropdown -->
+      <div class="nav-item" data-dropdown aria-haspopup="true">
+        <button class="nav-link" aria-expanded="false">
+          Services <span class="chevron" aria-hidden="true">▾</span>
+        </button>
+        <div class="dropdown" role="menu">
+          <a href="#services" class="dropdown-item" role="menuitem">
+            <span class="dropdown-icon" aria-hidden="true">🎯</span>
+            <span>Google Ads Management</span>
+          </a>
+          <a href="#services" class="dropdown-item" role="menuitem">
+            <span class="dropdown-icon" aria-hidden="true">📈</span>
+            <span>SEO Strategy</span>
+          </a>
+          <a href="#services" class="dropdown-item" role="menuitem">
+            <span class="dropdown-icon" aria-hidden="true">⚡</span>
+            <span>Performance Marketing</span>
+          </a>
+          <div class="dropdown-divider" role="separator"></div>
+          <a href="#services" class="dropdown-item" role="menuitem">
+            <span class="dropdown-icon" aria-hidden="true">🔬</span>
+            <span>Analytics & CRO</span>
+          </a>
+          <a href="#services" class="dropdown-item" role="menuitem">
+            <span class="dropdown-icon" aria-hidden="true">💻</span>
+            <span>Web Development</span>
+          </a>
+          <a href="#services" class="dropdown-item" role="menuitem">
+            <span class="dropdown-icon" aria-hidden="true">🚀</span>
+            <span>Growth Consulting</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Work Dropdown -->
+      <div class="nav-item" data-dropdown aria-haspopup="true">
+        <button class="nav-link" aria-expanded="false">
+          Portfolio <span class="chevron" aria-hidden="true">▾</span>
+        </button>
+        <div class="dropdown" role="menu">
+          <a href="#work" class="dropdown-item" role="menuitem">
+            <span class="dropdown-icon" aria-hidden="true">📊</span>
+            <span>Case Studies</span>
+          </a>
+          <a href="#certs" class="dropdown-item" role="menuitem">
+            <span class="dropdown-icon" aria-hidden="true">🏆</span>
+            <span>Certificates</span>
+          </a>
+          <a href="#blog" class="dropdown-item" role="menuitem">
+            <span class="dropdown-icon" aria-hidden="true">✍️</span>
+            <span>Blog / Articles</span>
+          </a>
+        </div>
+      </div>
+
+      <a href="#experience" class="nav-link" role="menuitem">Experience</a>
+      <a href="#pricing"    class="nav-link" role="menuitem">Pricing</a>
+      <a href="#faq"        class="nav-link" role="menuitem">FAQ</a>
+    </div>
+
+    <!-- Right Controls -->
+    <div class="nav-right">
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light mode">🌙</button>
+      <a href="#contact" class="btn btn-primary btn-sm nav-cta-desktop">Hire Me →</a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-drawer">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Drawer -->
+<div class="mobile-drawer" id="mobile-drawer" role="dialog" aria-label="Mobile navigation" aria-modal="true">
+  <nav class="mobile-menu-list">
+    <a href="#home"       class="mobile-link"><span class="mi">🏠</span> Home</a>
+    <a href="#about"      class="mobile-link"><span class="mi">👤</span> About</a>
+    <a href="#services"   class="mobile-link"><span class="mi">🎯</span> Services</a>
+    <a href="#experience" class="mobile-link"><span class="mi">📅</span> Experience</a>
+    <a href="#work"       class="mobile-link"><span class="mi">📊</span> Case Studies</a>
+    <a href="#certs"      class="mobile-link"><span class="mi">🏆</span> Certificates</a>
+    <a href="#pricing"    class="mobile-link"><span class="mi">💰</span> Pricing</a>
+    <a href="#faq"        class="mobile-link"><span class="mi">❓</span> FAQ</a>
+    <a href="#blog"       class="mobile-link"><span class="mi">✍️</span> Blog</a>
+    <a href="#contact"    class="mobile-link"><span class="mi">📩</span> Contact</a>
+  </nav>
+  <div class="mobile-divider"></div>
+  <div class="mobile-cta">
+    <a href="#contact" class="btn btn-primary">Hire Me — Let's Talk →</a>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     HERO
+══════════════════════════════════════════════════════════ -->
+<section class="hero" id="home" aria-label="Introduction">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="hero-grid" aria-hidden="true"></div>
+
+  <div class="container">
+    <div class="hero-inner">
+
+      <!-- Text -->
+      <div class="hero-text">
+        <div class="hero-available" role="status">
+          <span class="hero-available-dot" aria-hidden="true"></span>
+          Available for new projects
+        </div>
+
+        <h1 class="hero-title">
+          Results-Driven<br>
+          <span class="gradient-text">Digital Marketer</span><br>
+          &amp; Founder.
+        </h1>
+
+        <p class="hero-desc">
+          I help businesses grow through precision Google Ads, compounding SEO strategy, and full-funnel performance marketing. Passionate learner, innovator &amp; investor.
+        </p>
+
+        <div class="hero-btns">
+          <a href="#work"    class="btn btn-primary">View Case Studies →</a>
+          <a href="#contact" class="btn btn-secondary">Let's Collaborate</a>
+          <a href="#pricing" class="btn btn-outline">See Pricing</a>
+        </div>
+
+        <div class="hero-stats" aria-label="Key statistics">
+          <div class="hero-stat">
+            <div class="hero-stat-n count-up" data-target="8" data-suffix="+">0+</div>
+            <div class="hero-stat-l">Years Exp.</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-n count-up" data-target="150" data-suffix="+">0+</div>
+            <div class="hero-stat-l">Campaigns</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-n count-up" data-target="50" data-suffix="+">0+</div>
+            <div class="hero-stat-l">Clients</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-n count-up" data-target="320" data-suffix="%">0%</div>
+            <div class="hero-stat-l">Avg ROAS</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Avatar Card -->
+      <div class="hero-avatar-wrap" aria-hidden="true">
+        <div class="hero-avatar-card">
+          <!-- Replace with: <img src="assets/images/your-photo.jpg" alt="Nil Ratan Karmakar"> -->
+          <img src="assets/images/ratankarmakar.jpg" alt="Nil Ratan Karmakar - Digital Marketer">
+        </div>
+        <div class="hero-float-1">
+          <div class="hero-float-dot"></div>
+          <div>
+            <div class="hf-t1">Open to Opportunities</div>
+            <div class="hf-t2">Google Ads · SEO · Growth</div>
+          </div>
+        </div>
+        <div class="hero-float-2">
+          <div class="hf2-n">8+</div>
+          <div class="hf2-l">Years Exp.</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Marquee Bar -->
+<div class="marquee-bar" aria-hidden="true">
+  <div class="marquee-track">
+    <span class="marquee-item">Google Ads Expert <span class="marquee-dot"></span></span>
+    <span class="marquee-item">SEO Specialist <span class="marquee-dot"></span></span>
+    <span class="marquee-item">Founder &amp; Investor <span class="marquee-dot"></span></span>
+    <span class="marquee-item">Performance Marketing <span class="marquee-dot"></span></span>
+    <span class="marquee-item">HTML · CSS · JS <span class="marquee-dot"></span></span>
+    <span class="marquee-item">Tailwind CSS <span class="marquee-dot"></span></span>
+    <span class="marquee-item">Passionate Learner <span class="marquee-dot"></span></span>
+    <span class="marquee-item">Digital Innovator <span class="marquee-dot"></span></span>
+    <!-- Duplicate for seamless loop -->
+    <span class="marquee-item">Google Ads Expert <span class="marquee-dot"></span></span>
+    <span class="marquee-item">SEO Specialist <span class="marquee-dot"></span></span>
+    <span class="marquee-item">Founder &amp; Investor <span class="marquee-dot"></span></span>
+    <span class="marquee-item">Performance Marketing <span class="marquee-dot"></span></span>
+    <span class="marquee-item">HTML · CSS · JS <span class="marquee-dot"></span></span>
+    <span class="marquee-item">Tailwind CSS <span class="marquee-dot"></span></span>
+    <span class="marquee-item">Passionate Learner <span class="marquee-dot"></span></span>
+    <span class="marquee-item">Digital Innovator <span class="marquee-dot"></span></span>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     ABOUT
+══════════════════════════════════════════════════════════ -->
+<section id="about" class="bg2">
+  <div class="container">
+    <div class="about-grid">
+
+      <!-- Image -->
+      <div class="about-img-wrap fade-up">
+        <div class="about-img">
+          <!-- Replace with: <img src="assets/images/your-photo.jpg" alt="Nil Ratan Karmakar"> -->
+          <img src="assets/images/ratankarmakar.jpg" alt="Nil Ratan Karmakar - Digital Marketer & Founder">
+        </div>
+        <div class="about-img-badge" aria-hidden="true">
+          <div class="aib-n">50+</div>
+          <div class="aib-l">Happy Clients</div>
+        </div>
+      </div>
+
+      <!-- Content -->
+      <div class="fade-up d1">
+        <div class="sec-label">About Me</div>
+        <h2 class="sec-title">A results-driven<br>digital innovator.</h2>
+        <div class="about-body">
+          <p>I'm <strong>Nil Ratan Karmakar</strong> — a digital marketer, SEO specialist, and founder with a relentless passion for turning data into sustainable business growth.</p>
+          <p>With over 8 years of hands-on experience, I've built and scaled campaigns across e-commerce, SaaS, real estate, and education. I bring a founder's mindset to every engagement: move fast, measure everything, and optimize relentlessly.</p>
+          <p>Outside of client work, I invest in early-stage startups, share insights on digital marketing, and stay at the cutting edge of search and paid media innovation. I believe the best marketers are part analyst, part creative, and fully accountable to results.</p>
+        </div>
+        <div class="tag-row" role="list" aria-label="Skills and specializations">
+          <span class="tag" role="listitem">Google Ads Expert</span>
+          <span class="tag" role="listitem">SEO Specialist</span>
+          <span class="tag" role="listitem">Founder</span>
+          <span class="tag" role="listitem">Investor</span>
+          <span class="tag" role="listitem">Innovator</span>
+          <span class="tag" role="listitem">HTML · CSS · JS</span>
+          <span class="tag" role="listitem">Tailwind CSS</span>
+          <span class="tag" role="listitem">Analytics</span>
+          <span class="tag" role="listitem">CRO</span>
+          <span class="tag" role="listitem">Content Strategy</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     EXPERIENCE / TIMELINE
+══════════════════════════════════════════════════════════ -->
+<section id="experience">
+  <div class="container">
+    <div class="sec-header fade-up">
+      <div>
+        <div class="sec-label">My Journey</div>
+        <h2 class="sec-title">Experience &amp; Timeline</h2>
+      </div>
+      <p class="sec-desc" style="max-width:380px">From junior marketer to founder and investor — 8+ years of building digital growth engines.</p>
+    </div>
+
+    <div class="exp-grid">
+      <!-- Timeline -->
+      <div class="timeline fade-up">
+        <div class="tl-item">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <div class="tl-yr">2023 – Present</div>
+          <div class="tl-role">Founder &amp; Growth Strategist</div>
+          <div class="tl-org">Independent Consultancy</div>
+          <p class="tl-desc">Running my own digital marketing practice, advising growth-stage companies on Google Ads, SEO, and full-funnel strategy. Also investing in early-stage startups.</p>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <div class="tl-yr">2020 – 2023</div>
+          <div class="tl-role">Head of Performance Marketing</div>
+          <div class="tl-org">Digital Growth Agency</div>
+          <p class="tl-desc">Led a team of 8 marketers managing $2M+ monthly Google Ads spend across 40+ clients. Drove average ROAS improvements of 280% across portfolios.</p>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <div class="tl-yr">2017 – 2020</div>
+          <div class="tl-role">Senior SEO &amp; PPC Specialist</div>
+          <div class="tl-org">E-Commerce Brand</div>
+          <p class="tl-desc">Managed all search marketing for a $10M/yr e-commerce business. Scaled organic traffic from 5K to 80K monthly sessions through technical SEO and content strategy.</p>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <div class="tl-yr">2015 – 2017</div>
+          <div class="tl-role">Digital Marketing Executive</div>
+          <div class="tl-org">Marketing Startup</div>
+          <p class="tl-desc">Began my career managing Google Ads campaigns and learning the fundamentals of digital marketing, analytics, and paid media from the ground up.</p>
+        </div>
+      </div>
+
+      <!-- Education + Certs quick view -->
+      <div class="fade-up d1">
+        <div class="sec-label">Education</div>
+        <div class="card edu-card">
+          <div class="edu-yr">2011 – 2015</div>
+          <div class="edu-name">Bachelor of Business Administration</div>
+          <div class="edu-inst">Major in Marketing</div>
+        </div>
+        <div class="card edu-card">
+          <div class="edu-yr">Ongoing</div>
+          <div class="edu-name">Continuous Professional Development</div>
+          <div class="edu-inst">Google Skillshop · HubSpot Academy · Coursera · LinkedIn Learning</div>
+        </div>
+
+        <div class="sec-label" style="margin-top:2.5rem">Key Achievements</div>
+        <div style="display:flex;flex-direction:column;gap:.75rem">
+          <div class="card" style="padding:1rem 1.2rem;display:flex;gap:.85rem;align-items:center">
+            <span style="font-size:1.3rem" aria-hidden="true">🏆</span>
+            <div>
+              <div style="font-size:.87rem;font-weight:600;color:var(--head)">$2M+ Monthly Ad Spend Managed</div>
+              <div style="font-size:.74rem;color:var(--txt3)">Across 40+ client accounts simultaneously</div>
+            </div>
+          </div>
+          <div class="card" style="padding:1rem 1.2rem;display:flex;gap:.85rem;align-items:center">
+            <span style="font-size:1.3rem" aria-hidden="true">📈</span>
+            <div>
+              <div style="font-size:.87rem;font-weight:600;color:var(--head)">Top 3% Google Ads Performers</div>
+              <div style="font-size:.74rem;color:var(--txt3)">Recognized by Google Partner program</div>
+            </div>
+          </div>
+          <div class="card" style="padding:1rem 1.2rem;display:flex;gap:.85rem;align-items:center">
+            <span style="font-size:1.3rem" aria-hidden="true">🚀</span>
+            <div>
+              <div style="font-size:.87rem;font-weight:600;color:var(--head)">$1M ARR Startup Built</div>
+              <div style="font-size:.74rem;color:var(--txt3)">From zero to $1M ARR in 18 months as founder</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     SERVICES
+══════════════════════════════════════════════════════════ -->
+<section id="services" class="bg2">
+  <div class="container">
+    <div class="sec-header fade-up">
+      <div>
+        <div class="sec-label">What I Offer</div>
+        <h2 class="sec-title">Specialized Services</h2>
+      </div>
+      <p class="sec-desc" style="max-width:380px">End-to-end digital marketing expertise from paid acquisition to organic growth — all tied to measurable results.</p>
+    </div>
+    <div class="services-grid">
+      <article class="card svc-card fade-up">
+        <div class="svc-icon" aria-hidden="true">🎯</div>
+        <h3 class="svc-title">Google Ads Management</h3>
+        <p class="svc-desc">Search, Shopping, Display, Performance Max &amp; YouTube. Precision bidding, creative testing, and constant optimization for maximum ROAS from every dollar spent.</p>
+      </article>
+      <article class="card svc-card fade-up d1">
+        <div class="svc-icon" aria-hidden="true">📈</div>
+        <h3 class="svc-title">SEO Strategy</h3>
+        <p class="svc-desc">Technical audits, topical authority content, and link building designed to rank for keywords that convert — building long-term organic growth that compounds over time.</p>
+      </article>
+      <article class="card svc-card fade-up d2">
+        <div class="svc-icon" aria-hidden="true">⚡</div>
+        <h3 class="svc-title">Performance Marketing</h3>
+        <p class="svc-desc">Full-funnel strategies combining paid, organic, and earned channels. Every decision is backed by data, every campaign tied directly to your business objectives.</p>
+      </article>
+      <article class="card svc-card fade-up">
+        <div class="svc-icon" aria-hidden="true">🔬</div>
+        <h3 class="svc-title">Analytics &amp; CRO</h3>
+        <p class="svc-desc">GA4, GTM setup, custom Looker Studio dashboards, and A/B testing frameworks that surface actionable insights and ruthlessly improve conversion rates.</p>
+      </article>
+      <article class="card svc-card fade-up d1">
+        <div class="svc-icon" aria-hidden="true">🚀</div>
+        <h3 class="svc-title">Growth Consulting</h3>
+        <p class="svc-desc">Strategic advisory for startups and scaling businesses. From product-market fit to repeatable growth loops — I've built and invested in companies at every stage.</p>
+      </article>
+      <article class="card svc-card fade-up d2">
+        <div class="svc-icon" aria-hidden="true">💻</div>
+        <h3 class="svc-title">Web &amp; Landing Pages</h3>
+        <p class="svc-desc">Clean, conversion-focused pages built with HTML, CSS, JavaScript, and Tailwind CSS. Mobile-first, performance-optimized, and designed to turn visitors into customers.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     SKILLS
+══════════════════════════════════════════════════════════ -->
+<section id="skills-section">
+  <div class="container">
+    <div class="sec-header fade-up">
+      <div>
+        <div class="sec-label">Expertise Level</div>
+        <h2 class="sec-title">Skills &amp; Tools</h2>
+      </div>
+    </div>
+
+    <div class="skills-layout">
+      <!-- Skill Bars -->
+      <div>
+        <div class="skill-item fade-up">
+          <div class="skill-head"><span class="skill-name">Google Ads</span><span class="skill-pct">97%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-w="97" role="progressbar" aria-valuenow="97" aria-valuemin="0" aria-valuemax="100"></div></div>
+        </div>
+        <div class="skill-item fade-up d1">
+          <div class="skill-head"><span class="skill-name">SEO / SEM</span><span class="skill-pct">93%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-w="93" role="progressbar" aria-valuenow="93" aria-valuemin="0" aria-valuemax="100"></div></div>
+        </div>
+        <div class="skill-item fade-up d2">
+          <div class="skill-head"><span class="skill-name">Google Analytics 4</span><span class="skill-pct">91%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-w="91" role="progressbar" aria-valuenow="91" aria-valuemin="0" aria-valuemax="100"></div></div>
+        </div>
+        <div class="skill-item fade-up">
+          <div class="skill-head"><span class="skill-name">HTML / CSS / JavaScript</span><span class="skill-pct">88%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-w="88" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div></div>
+        </div>
+        <div class="skill-item fade-up d1">
+          <div class="skill-head"><span class="skill-name">Conversion Rate Optimization</span><span class="skill-pct">90%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-w="90" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div></div>
+        </div>
+        <div class="skill-item fade-up d2">
+          <div class="skill-head"><span class="skill-name">Content Strategy &amp; Copywriting</span><span class="skill-pct">85%</span></div>
+          <div class="skill-track"><div class="skill-fill" data-w="85" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div></div>
+        </div>
+      </div>
+
+      <!-- Tools + Certifications -->
+      <div class="fade-up d1">
+        <div class="tools-label">Daily Tools</div>
+        <div class="tools-chips" role="list">
+          <span class="tool-chip" role="listitem">Google Ads</span>
+          <span class="tool-chip" role="listitem">Search Console</span>
+          <span class="tool-chip" role="listitem">SEMrush</span>
+          <span class="tool-chip" role="listitem">Ahrefs</span>
+          <span class="tool-chip" role="listitem">GA4</span>
+          <span class="tool-chip" role="listitem">GTM</span>
+          <span class="tool-chip" role="listitem">Hotjar</span>
+          <span class="tool-chip" role="listitem">Looker Studio</span>
+          <span class="tool-chip" role="listitem">Tailwind CSS</span>
+          <span class="tool-chip" role="listitem">Figma</span>
+          <span class="tool-chip" role="listitem">WordPress</span>
+          <span class="tool-chip" role="listitem">Screaming Frog</span>
+          <span class="tool-chip" role="listitem">Notion</span>
+          <span class="tool-chip" role="listitem">Slack</span>
+        </div>
+
+        <div class="cert-list" role="list" aria-label="Certifications">
+          <div class="cert-badge-item" role="listitem">
+            <div class="cert-badge-icon" aria-hidden="true">🏆</div>
+            <div><div class="cert-badge-name">Google Ads Certified</div><div class="cert-badge-issuer">Search · Display · Shopping · Video</div></div>
+          </div>
+          <div class="cert-badge-item" role="listitem">
+            <div class="cert-badge-icon" aria-hidden="true">📊</div>
+            <div><div class="cert-badge-name">Google Analytics 4 Certified</div><div class="cert-badge-issuer">Google Skillshop · 2024</div></div>
+          </div>
+          <div class="cert-badge-item" role="listitem">
+            <div class="cert-badge-icon" aria-hidden="true">🎓</div>
+            <div><div class="cert-badge-name">HubSpot Inbound Marketing</div><div class="cert-badge-issuer">HubSpot Academy · 2024</div></div>
+          </div>
+          <div class="cert-badge-item" role="listitem">
+            <div class="cert-badge-icon" aria-hidden="true">📱</div>
+            <div><div class="cert-badge-name">Meta Blueprint Certified</div><div class="cert-badge-issuer">Facebook &amp; Instagram Ads · 2024</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     CERTIFICATES GALLERY
+══════════════════════════════════════════════════════════ -->
+<section id="certs" class="bg2">
+  <div class="container">
+    <div class="sec-header fade-up">
+      <div>
+        <div class="sec-label">Verified Credentials</div>
+        <h2 class="sec-title">Certifications</h2>
+      </div>
+      <p class="sec-desc" style="max-width:340px">Industry-recognized credentials from Google, HubSpot, Meta, and more.</p>
+    </div>
+    <div class="cert-grid">
+
+      <article class="card cert-card fade-up">
+        <div class="cert-img">
+          <img src="assets/images/Google Ads Search Certification.webp" alt="Google Ads Search Certification">
+          <span class="cert-verified" aria-label="Verified certificate">Verified</span>
+        </div>
+        <div class="cert-info">
+          <div class="cert-name">Google Ads Search Certification</div>
+          <div class="cert-source">Google Skillshop</div>
+          <div class="cert-date">✓ Valid 2024 – 2025</div>
+        </div>
+      </article>
+	  
+	  <article class="card cert-card fade-up">
+        <div class="cert-img">
+          <img src="assets/images/Google Ads Shopping Certification.jpg" alt="Google Ads Shopping Certification">
+          <span class="cert-verified" aria-label="Verified certificate">Verified</span>
+        </div>
+        <div class="cert-info">
+          <div class="cert-name">Google Ads Shopping Certification</div>
+          <div class="cert-source">Google Skillshop</div>
+          <div class="cert-date">✓ Valid 2024 – 2025</div>
+        </div>
+      </article>
+
+      <article class="card cert-card fade-up d1">
+        <div class="cert-img">
+          <img src="assets/images/Google Analytics 4 Certified.jpg" alt="Google Analytics 4 Certification">
+          <span class="cert-verified" aria-label="Verified certificate">Verified</span>
+        </div>
+        <div class="cert-info">
+          <div class="cert-name">Google Analytics 4 Certified</div>
+          <div class="cert-source">Google Skillshop</div>
+          <div class="cert-date">✓ Valid 2024 – 2025</div>
+        </div>
+      </article>
+
+      <article class="card cert-card fade-up d2">
+        <div class="cert-img">
+          <img src="assets/images/HubSpot Inbound Marketing.jpeg" alt="HubSpot Inbound Marketing Certification">
+          <span class="cert-verified" aria-label="Verified certificate">Verified</span>
+        </div>
+        <div class="cert-info">
+          <div class="cert-name">HubSpot Inbound Marketing</div>
+          <div class="cert-source">HubSpot Academy</div>
+          <div class="cert-date">✓ Valid 2024 – 2025</div>
+        </div>
+      </article>
+
+      <article class="card cert-card fade-up">
+        <div class="cert-img">
+          <img src="assets/images/Meta Blueprint Certified.png" alt="Meta Blueprint Certification">
+          <span class="cert-verified" aria-label="Verified certificate">Verified</span>
+        </div>
+        <div class="cert-info">
+          <div class="cert-name">Meta Blueprint Certified</div>
+          <div class="cert-source">Meta Blueprint</div>
+          <div class="cert-date">✓ Valid 2024 – 2025</div>
+        </div>
+      </article>
+	  <article class="card cert-card fade-up">
+        <div class="cert-img">
+          <img src="assets/images/SEMrush SEO Certification.webp" alt="Meta Blueprint Certification">
+          <span class="cert-verified" aria-label="Verified certificate">Verified</span>
+        </div>
+        <div class="cert-info">
+          <div class="cert-name">Meta Blueprint Certified</div>
+          <div class="cert-source">Meta Blueprint</div>
+          <div class="cert-date">✓ Valid 2024 – 2025</div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     WORK / CASE STUDIES
+══════════════════════════════════════════════════════════ -->
+<section id="work">
+  <div class="container">
+    <div class="sec-header fade-up">
+      <div>
+        <div class="sec-label">Case Studies</div>
+        <h2 class="sec-title">Featured Work</h2>
+      </div>
+      <p class="sec-desc" style="max-width:340px;font-size:.9rem">Real campaigns. Measurable results. Data-driven marketing in practice.</p>
+    </div>
+    <div class="work-grid">
+      <article class="card work-card fade-up">
+        <div class="work-tag">Google Ads · E-Commerce</div>
+        <h3 class="work-title">DTC Fashion Brand — 5× ROAS</h3>
+        <p class="work-desc">Rebuilt Google Shopping from scratch with Performance Max campaigns and custom audience signals. Transformed a struggling ad account into a reliable, scalable revenue engine.</p>
+        <div class="work-metrics" aria-label="Campaign results">
+          <div><div class="wm-n">500%</div><div class="wm-l">ROAS achieved</div></div>
+          <div><div class="wm-n">−42%</div><div class="wm-l">Cost per click</div></div>
+          <div><div class="wm-n">3.2×</div><div class="wm-l">Revenue growth</div></div>
+        </div>
+      </article>
+      <article class="card work-card fade-up d1">
+        <div class="work-tag">SEO · SaaS</div>
+        <h3 class="work-title">B2B SaaS — #1 Rankings in 6 Months</h3>
+        <p class="work-desc">Technical SEO overhaul plus topical authority content strategy. Took the client from page 5 to #1 for their primary commercial keywords — in under 6 months.</p>
+        <div class="work-metrics">
+          <div><div class="wm-n">+780%</div><div class="wm-l">Organic traffic</div></div>
+          <div><div class="wm-n">47</div><div class="wm-l">Keywords #1</div></div>
+          <div><div class="wm-n">6 mo</div><div class="wm-l">Time to results</div></div>
+        </div>
+      </article>
+      <article class="card work-card fade-up">
+        <div class="work-tag">Performance Marketing · Lead Gen</div>
+        <h3 class="work-title">Real Estate Portal — 4× Leads</h3>
+        <p class="work-desc">Multi-channel Google campaign with smart bidding and CRM integration for lead quality scoring. Quadrupled lead volume while cutting cost-per-lead by more than half.</p>
+        <div class="work-metrics">
+          <div><div class="wm-n">4×</div><div class="wm-l">Lead volume</div></div>
+          <div><div class="wm-n">−58%</div><div class="wm-l">Cost per lead</div></div>
+          <div><div class="wm-n">220%</div><div class="wm-l">ROI increase</div></div>
+        </div>
+      </article>
+      <article class="card work-card fade-up d1">
+        <div class="work-tag">Startup · Growth · Investment</div>
+        <h3 class="work-title">EdTech Platform — 0 to $1M ARR</h3>
+        <p class="work-desc">As founder and growth lead, scaled an EdTech startup from zero to $1M ARR in 18 months — combining a content flywheel with strategic paid acquisition and referral loops.</p>
+        <div class="work-metrics">
+          <div><div class="wm-n">$1M</div><div class="wm-l">ARR achieved</div></div>
+          <div><div class="wm-n">18 mo</div><div class="wm-l">Timeline</div></div>
+          <div><div class="wm-n">12k+</div><div class="wm-l">Active users</div></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     PRICING
+══════════════════════════════════════════════════════════ -->
+<section id="pricing" class="bg2">
+  <div class="container">
+    <div class="sec-header fade-up" style="text-align:center;justify-content:center;flex-direction:column;align-items:center">
+      <div class="sec-label">Investment</div>
+      <h2 class="sec-title">Transparent Pricing</h2>
+      <p class="sec-desc">Simple, clear packages. No hidden fees. No long-term lock-ins. Just results.</p>
+    </div>
+    <div class="pricing-grid">
+
+      <div class="card price-card fade-up">
+        <div class="price-plan">Starter</div>
+        <div class="price-amount"><sup>$</sup>299</div>
+        <div class="price-period">per month</div>
+        <p class="price-desc">Perfect for small businesses and solopreneurs just getting started with digital marketing.</p>
+        <ul class="price-list">
+          <li><span class="price-check">✓</span> Google Ads management (1 campaign)</li>
+          <li><span class="price-check">✓</span> Monthly performance report</li>
+          <li><span class="price-check">✓</span> Keyword research &amp; setup</li>
+          <li><span class="price-check">✓</span> Landing page review</li>
+          <li><span class="price-check">✓</span> Email support</li>
+        </ul>
+        <button class="price-btn outline" onclick="document.querySelector('#contact').scrollIntoView({behavior:'smooth'})">Get Started</button>
+      </div>
+
+      <div class="card price-card featured fade-up d1">
+        <div class="popular-badge" aria-label="Most popular plan">⭐ Most Popular</div>
+        <div class="price-plan">Growth</div>
+        <div class="price-amount"><sup>$</sup>699</div>
+        <div class="price-period">per month</div>
+        <p class="price-desc">The full-stack package for businesses serious about dominating digital channels.</p>
+        <ul class="price-list">
+          <li><span class="price-check">✓</span> Google Ads (up to 5 campaigns)</li>
+          <li><span class="price-check">✓</span> Full SEO strategy &amp; execution</li>
+          <li><span class="price-check">✓</span> Weekly reporting &amp; insights</li>
+          <li><span class="price-check">✓</span> CRO &amp; landing page optimization</li>
+          <li><span class="price-check">✓</span> GA4 &amp; GTM setup</li>
+          <li><span class="price-check">✓</span> Priority support via Slack</li>
+        </ul>
+        <button class="price-btn solid" onclick="document.querySelector('#contact').scrollIntoView({behavior:'smooth'})">Get Started</button>
+      </div>
+
+      <div class="card price-card fade-up d2">
+        <div class="price-plan">Enterprise</div>
+        <div class="price-amount" style="font-size:2.2rem;letter-spacing:-.02em">Custom</div>
+        <div class="price-period">tailored to your needs</div>
+        <p class="price-desc">For large businesses and agencies needing full-service partnership and dedicated management.</p>
+        <ul class="price-list">
+          <li><span class="price-check">✓</span> Unlimited campaigns &amp; channels</li>
+          <li><span class="price-check">✓</span> Dedicated strategy sessions</li>
+          <li><span class="price-check">✓</span> Custom analytics dashboard</li>
+          <li><span class="price-check">✓</span> White-label reporting</li>
+          <li><span class="price-check">✓</span> Investment advisory included</li>
+          <li><span class="price-check">✓</span> 24/7 priority support</li>
+        </ul>
+        <button class="price-btn outline" onclick="document.querySelector('#contact').scrollIntoView({behavior:'smooth'})">Contact Me</button>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     TESTIMONIALS
+══════════════════════════════════════════════════════════ -->
+<section id="testimonials">
+  <div class="container">
+    <div class="sec-header fade-up">
+      <div>
+        <div class="sec-label">Social Proof</div>
+        <h2 class="sec-title">What Clients Say</h2>
+      </div>
+    </div>
+    <div class="testi-grid">
+      <article class="card testi-card fade-up">
+        <div class="stars" aria-label="5 star rating">★★★★★</div>
+        <blockquote class="testi-text">"Nil doubled our Google Ads ROAS in just three months. The strategic depth, data analysis, and accountability were unlike anything we'd experienced with previous agencies."</blockquote>
+        <div class="testi-author">
+          <div class="testi-av" aria-hidden="true">AR</div>
+          <div><div class="testi-name">Ahmed Rahman</div><div class="testi-role">CEO, NovaTech</div></div>
+        </div>
+      </article>
+      <article class="card testi-card fade-up d1">
+        <div class="stars" aria-label="5 star rating">★★★★★</div>
+        <blockquote class="testi-text">"Our organic traffic went from 2,000 to 18,000 monthly visitors in 6 months. The SEO roadmap was clear, the execution was flawless, and the results speak for themselves."</blockquote>
+        <div class="testi-author">
+          <div class="testi-av" aria-hidden="true">SM</div>
+          <div><div class="testi-name">Sarah Mitchell</div><div class="testi-role">Founder, GrowthLab</div></div>
+        </div>
+      </article>
+      <article class="card testi-card fade-up d2">
+        <div class="stars" aria-label="5 star rating">★★★★★</div>
+        <blockquote class="testi-text">"Not just a marketer — a genuine growth partner. Nil thinks like a founder, moves with urgency, and delivers real numbers. Our cost per acquisition dropped 60%."</blockquote>
+        <div class="testi-author">
+          <div class="testi-av" aria-hidden="true">KU</div>
+          <div><div class="testi-name">Karim Uddin</div><div class="testi-role">COO, ShopBD Commerce</div></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     FAQ
+══════════════════════════════════════════════════════════ -->
+<section id="faq" class="bg2">
+  <div class="container">
+    <div class="sec-header fade-up" style="flex-direction:column;align-items:flex-start">
+      <div class="sec-label">Questions</div>
+      <h2 class="sec-title">Frequently Asked</h2>
+    </div>
+    <div class="faq-wrap fade-up">
+
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">How quickly can I expect results from Google Ads? <div class="faq-icon" aria-hidden="true">+</div></button>
+        <div class="faq-a" role="region">Google Ads drives traffic from day one. For meaningful ROAS optimization, expect 2–4 weeks of data collection. Significant performance improvements typically appear within 30–60 days as bidding, audiences, and creative are refined based on real data.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">How long does SEO take to show results? <div class="faq-icon" aria-hidden="true">+</div></button>
+        <div class="faq-a" role="region">SEO is a long-term investment. Technical fixes show improvements in 4–8 weeks. Content and link-building strategies typically drive meaningful organic traffic growth within 3–6 months, with compounding results thereafter. I set realistic expectations from day one.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">Do you work with businesses outside Bangladesh? <div class="faq-icon" aria-hidden="true">+</div></button>
+        <div class="faq-a" role="region">Absolutely — I work with clients worldwide on a fully remote basis. I've managed campaigns for businesses in the US, UK, Australia, UAE, and across South Asia. Time zones are not a barrier; I adapt to my clients' schedules.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">What's the minimum ad budget you recommend? <div class="faq-icon" aria-hidden="true">+</div></button>
+        <div class="faq-a" role="region">For Google Ads, I recommend a minimum monthly budget of $500–$1,000 USD to gather meaningful data and achieve results. Below this threshold, campaigns don't accumulate enough data to optimize effectively. I'm happy to advise on the right budget for your specific goals and market.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">Can I hire you for a one-time project or audit? <div class="faq-icon" aria-hidden="true">+</div></button>
+        <div class="faq-a" role="region">Yes! I offer one-time Google Ads audits, SEO audits, and strategy sessions. These are ideal if you have an in-house team but want an expert second opinion or a detailed action plan. Reach out via the contact form to discuss your needs and I'll provide a custom quote.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">How do you report and communicate with clients? <div class="faq-icon" aria-hidden="true">+</div></button>
+        <div class="faq-a" role="region">I provide weekly performance updates and detailed monthly reports through Looker Studio dashboards with 24/7 client access. Growth and Enterprise clients get access to a shared Slack channel for quick questions and real-time updates. Full transparency — always.</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     BLOG
+══════════════════════════════════════════════════════════ -->
+<section id="blog">
+  <div class="container">
+    <div class="sec-header fade-up">
+      <div>
+        <div class="sec-label">Insights</div>
+        <h2 class="sec-title">Latest Articles</h2>
+      </div>
+      <a href="#" class="btn btn-outline btn-sm">View All Articles →</a>
+    </div>
+    <div class="blog-grid">
+
+      <article class="card blog-card fade-up">
+        <div class="blog-img">
+          <img src="assets/images/blog-1.svg" alt="Google Ads Performance Max article">
+        </div>
+        <div class="blog-body">
+          <div class="blog-cat">Google Ads</div>
+          <h3 class="blog-title">How Performance Max Is Changing Google Ads in 2025</h3>
+          <p class="blog-excerpt">A deep dive into Google's most powerful campaign type and how to configure it for maximum ROAS using smart audience signals and asset groups.</p>
+          <div class="blog-meta">
+            <span class="blog-date">📅 Feb 10, 2025</span>
+            <span>8 min read</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card blog-card fade-up d1">
+        <div class="blog-img">
+          <img src="assets/images/blog-2.svg" alt="SEO Topical Authority article">
+        </div>
+        <div class="blog-body">
+          <div class="blog-cat">SEO</div>
+          <h3 class="blog-title">Topical Authority: The SEO Strategy That Actually Works</h3>
+          <p class="blog-excerpt">Why keyword-by-keyword SEO is dying and how building topical authority clusters can drive 5× more organic traffic with less effort.</p>
+          <div class="blog-meta">
+            <span class="blog-date">📅 Jan 28, 2025</span>
+            <span>11 min read</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card blog-card fade-up d2">
+        <div class="blog-img">
+          <img src="assets/images/blog-3.svg" alt="Startup growth playbook article">
+        </div>
+        <div class="blog-body">
+          <div class="blog-cat">Growth</div>
+          <h3 class="blog-title">From 0 to $1M ARR: The Growth Playbook I Used</h3>
+          <p class="blog-excerpt">The exact channel mix, content flywheel, and paid acquisition framework I used to scale an EdTech startup to $1M ARR in just 18 months.</p>
+          <div class="blog-meta">
+            <span class="blog-date">📅 Jan 12, 2025</span>
+            <span>14 min read</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     CONTACT
+══════════════════════════════════════════════════════════ -->
+<section id="contact" class="bg2">
+  <div class="container">
+    <div class="contact-grid">
+
+      <!-- Info -->
+      <div class="fade-up">
+        <div class="sec-label">Get in Touch</div>
+        <h2 class="sec-title">Let's build something<br>great together.</h2>
+        <p class="sec-desc" style="margin-bottom:0">Ready to grow? Let's talk about your goals, your challenges, and how I can help you scale — fast.</p>
+
+        <div class="contact-intro">
+          <div class="ci-row">
+            <div class="ci-icon" aria-hidden="true">📧</div>
+            <div><div class="ci-lbl">Email</div><div class="ci-val">ratankarmakar32@gmail.com</div></div>
+          </div>
+          <div class="ci-row">
+            <div class="ci-icon" aria-hidden="true">💼</div>
+            <div><div class="ci-lbl">LinkedIn</div><div class="ci-val">linkedin.com/in/ratankarmakar</div></div>
+          </div>
+          <div class="ci-row">
+            <div class="ci-icon" aria-hidden="true">📍</div>
+            <div><div class="ci-lbl">Location</div><div class="ci-val">Available Worldwide · Remote</div></div>
+          </div>
+          <div class="ci-row">
+            <div class="ci-icon" aria-hidden="true">⏰</div>
+            <div><div class="ci-lbl">Response Time</div><div class="ci-val">Within 24 hours guaranteed</div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Form -->
+      <div class="fade-up d1">
+        <div class="contact-form-wrap">
+          <form id="contact-form" novalidate aria-label="Contact form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" placeholder="Your full name" required autocomplete="name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" placeholder="your@email.com" required autocomplete="email">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="service">Service Needed</label>
+              <select id="service" name="service">
+                <option value="">Select a service...</option>
+                <option>Google Ads Management</option>
+                <option>SEO Strategy</option>
+                <option>Performance Marketing</option>
+                <option>Growth Consulting</option>
+                <option>Analytics &amp; CRO</option>
+                <option>Web Development</option>
+                <option>One-Time Audit</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="budget">Monthly Budget</label>
+              <select id="budget" name="budget">
+                <option value="">Prefer not to say</option>
+                <option>Under $500</option>
+                <option>$500 – $1,000</option>
+                <option>$1,000 – $5,000</option>
+                <option>$5,000 – $10,000</option>
+                <option>$10,000+</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message *</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your goals, current challenges, and what success looks like for you..." required></textarea>
+            </div>
+            <div class="form-submit">
+              <button type="submit" class="btn btn-primary" id="submit-btn" style="width:100%;justify-content:center;font-size:.9rem;padding:.9rem">
+                Send Message →
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════════════════════ -->
+<footer role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="name">Nil Ratan Karmakar</div>
+        <p class="tagline">Digital Marketer, SEO Specialist &amp; Founder. Turning data into sustainable growth for businesses worldwide.</p>
+      </div>
+      <div>
+        <div class="footer-heading">Navigation</div>
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#services">Services</a>
+          <a href="#work">Case Studies</a>
+        </nav>
+      </div>
+      <div>
+        <div class="footer-heading">Resources</div>
+        <nav class="footer-links" aria-label="Resources navigation">
+          <a href="#certs">Certificates</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#faq">FAQ</a>
+          <a href="#blog">Blog</a>
+        </nav>
+      </div>
+      <div>
+        <div class="footer-heading">Connect</div>
+        <nav class="footer-links" aria-label="Social links">
+          <a href="https://linkedin.com/in/ratankarmakar" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="#" target="_blank" rel="noopener noreferrer">Twitter / X</a>
+          <a href="#" target="_blank" rel="noopener noreferrer">Facebook</a>
+          <a href="#contact">Contact Me</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2025 Nil Ratan Karmakar. All rights reserved.</p>
+      <div class="socials" aria-label="Social media links">
+        <a href="https://linkedin.com/in/ratankarmakar" class="social-btn" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">in</a>
+        <a href="#" class="social-btn" aria-label="Twitter">𝕏</a>
+        <a href="#" class="social-btn" aria-label="Facebook">f</a>
+        <a href="#" class="social-btn" aria-label="Instagram">ig</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to Top -->
+<button id="back-top" aria-label="Scroll back to top" title="Back to top">↑</button>
+
+<!-- Scripts -->
+<script src="assets/js/script.js" defer></script>
+
+<!--  Send email using EmailJS  -->
+
+<!-- EmailJS SDK -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script>
+(function() {
+  // Initialize EmailJS with your public key
+  emailjs.init('LXVeCKVEGd4WuanuX'); // Replace with your actual public key
+  
+  const form = document.getElementById('contact-form');
+  const submitBtn = document.getElementById('submit-btn');
+  
+  form.addEventListener('submit', function(event) {
+    event.preventDefault();
+    
+    // Change button state to loading
+    const originalText = submitBtn.innerHTML;
+    submitBtn.innerHTML = 'Sending...';
+    submitBtn.disabled = true;
+    
+    // Get form data
+    const formData = {
+      name: document.getElementById('name').value,
+      email: document.getElementById('email').value,
+      service: document.getElementById('service').value,
+      budget: document.getElementById('budget').value,
+      message: document.getElementById('message').value,
+      
+      // Additional useful fields
+      to_email: 'ratankarmakar32@gmail.com', // Where you want to receive emails
+      reply_to: document.getElementById('email').value
+    };
+    
+    // Send email using EmailJS
+    emailjs.send(
+      'service_qhdfuyk', // Replace with your Service ID
+      'template_vmnknzw', // Replace with your Template ID
+      formData
+    ).then(function(response) {
+      console.log('SUCCESS!', response.status, response.text);
+      
+      // Show success message
+      alert('Message sent successfully! I\'ll get back to you soon.');
+      
+      // Reset form
+      form.reset();
+      
+      // Restore button
+      submitBtn.innerHTML = originalText;
+      submitBtn.disabled = false;
+      
+    }, function(error) {
+      console.log('FAILED...', error);
+      
+      // Show error message
+      alert('Failed to send message. Please try again or email me directly at your-email@example.com');
+      
+      // Restore button
+      submitBtn.innerHTML = originalText;
+      submitBtn.disabled = false;
+    });
+  });
+})();
+</script>
+<!--
+jessicarosej1995@gmail.com
+Ratankarmakaremail123456
+-->
+</body>
+</html>

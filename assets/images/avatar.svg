@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a2744;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0d1520;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4e80ee;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#4e80ee;stop-opacity:0.05"/>
+    </linearGradient>
+    <linearGradient id="circle" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4e80ee;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#4e80ee;stop-opacity:0.1"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="400" height="500" fill="url(#bg)"/>
+  <!-- Decorative circles -->
+  <circle cx="320" cy="80" r="120" fill="url(#circle)"/>
+  <circle cx="60" cy="420" r="100" fill="url(#circle)"/>
+  <!-- Grid lines -->
+  <line x1="0" y1="100" x2="400" y2="100" stroke="#4e80ee" stroke-width="0.5" opacity="0.15"/>
+  <line x1="0" y1="200" x2="400" y2="200" stroke="#4e80ee" stroke-width="0.5" opacity="0.15"/>
+  <line x1="0" y1="300" x2="400" y2="300" stroke="#4e80ee" stroke-width="0.5" opacity="0.15"/>
+  <line x1="0" y1="400" x2="400" y2="400" stroke="#4e80ee" stroke-width="0.5" opacity="0.15"/>
+  <line x1="100" y1="0" x2="100" y2="500" stroke="#4e80ee" stroke-width="0.5" opacity="0.15"/>
+  <line x1="200" y1="0" x2="200" y2="500" stroke="#4e80ee" stroke-width="0.5" opacity="0.15"/>
+  <line x1="300" y1="0" x2="300" y2="500" stroke="#4e80ee" stroke-width="0.5" opacity="0.15"/>
+  <!-- Initials circle -->
+  <circle cx="200" cy="200" r="110" fill="url(#accent)" stroke="#4e80ee" stroke-width="1.5" stroke-opacity="0.3"/>
+  <!-- NRK Text -->
+  <text x="200" y="225" font-family="Georgia, serif" font-size="72" font-weight="700" fill="#4e80ee" text-anchor="middle" opacity="0.9">NRK</text>
+  <!-- Bottom label -->
+  <rect x="60" y="390" width="280" height="60" rx="12" fill="#4e80ee" fill-opacity="0.15" stroke="#4e80ee" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="200" y="418" font-family="Georgia, serif" font-size="13" fill="#c8d8ff" text-anchor="middle" opacity="0.9">Nil Ratan Karmakar</text>
+  <text x="200" y="438" font-family="Arial, sans-serif" font-size="10" fill="#7a9ecc" text-anchor="middle" opacity="0.8">Digital Marketer &amp; Founder</text>
+  <!-- Replace with your real photo -->
+  <text x="200" y="476" font-family="Arial, sans-serif" font-size="9" fill="#4e80ee" text-anchor="middle" opacity="0.5">Replace with your real photo</text>
+</svg>
